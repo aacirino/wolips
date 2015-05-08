@@ -14,7 +14,7 @@
     <!-- ============================================= -->
     <target name="java">
        <javac srcdir="${param.src.dir}" destdir="${param.dest.dir}" 
-              source="${compile.source}" target="${compile.target}" debug="true">
+              source="${compile.source}" target="${compile.target}" debug="true" includeantruntime=false>
             <classpath refid="classpath"/>
         </javac>
     </target>

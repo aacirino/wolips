@@ -35,7 +35,7 @@
 		<ant dir="core" target="all" />
 		<ant dir="goodies" target="all" />
 		<!-- ant dir="maven" target="all" / -->
-		<ant dir="jprofiler" target="all" />
+		<!--ant dir="jprofiler" target="all" /-->
 		<ant dir="jrebel" target="all" />
 		<ant dir="scripting" target="all" />
 		<!-- ant dir="apple" target="all" / -->
@@ -57,7 +57,7 @@
 		<ant dir="goodies" target="dist" />
 		<!-- ant dir="maven" target="dist" / -->
 		<!-- ant dir="apple" target="dist" / -->
-		<ant dir="jprofiler" target="dist" />
+		<!--ant dir="jprofiler" target="dist" /-->
 		<ant dir="jrebel" target="dist" />
 		<ant dir="scripting" target="dist" />
 		<copy file="update/local/site.xml" todir="../${build.output.dist.dir}" overwrite="true" />

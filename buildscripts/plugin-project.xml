@@ -29,7 +29,7 @@
 			</fileset>
 		</path>
 
-		<javac srcdir="${param.plugin.dir}/java" destdir="${param.java.dest.dir}" compiler="${wolips.build.compiler}" source="${wolips.compile.source}" target="${wolips.compile.target}" debug="true">
+		<javac srcdir="${param.plugin.dir}/java" destdir="${param.java.dest.dir}" compiler="${wolips.build.compiler}" source="${wolips.compile.source}" target="${wolips.compile.target}" debug="true" includeantruntime=false>
 			<classpath refid="full.classpath" />
 		</javac>
 	</target>
