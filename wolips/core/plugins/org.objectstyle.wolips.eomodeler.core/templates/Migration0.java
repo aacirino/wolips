@@ -1,4 +1,4 @@
-package ${model.name}
+package migrations
 
 #foreach ($entity in $model.entities)
 #if ($model.userInfo.packageImport)
